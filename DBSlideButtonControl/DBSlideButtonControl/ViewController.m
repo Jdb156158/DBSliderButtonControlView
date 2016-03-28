@@ -32,7 +32,7 @@
     [_filter setSelectedIndex:0];//设置当前选中
     [_Button_UIView addSubview:_filter];
     
-    _showLabel.text = @"当前选中：人民轿车";
+    _showLabel.text = @"当前选中的是：人民轿车";
 }
 
 #pragma mark -- 点击底部按钮响应事件
@@ -41,16 +41,16 @@
     NSLog(@"当前滑块位置%d",sender.SelectedIndex);
     switch (sender.SelectedIndex) {
         case 0:
-            _showLabel.text = @"当前选中：人民轿车";
+            _showLabel.text = @"当前选中的是：人民轿车";
             break;
         case 1:
-            _showLabel.text = @"当前选中：高级轿车";
+            _showLabel.text = @"当前选中的是：高级轿车";
             break;
         case 2:
-            _showLabel.text = @"当前选中：豪华轿车";
+            _showLabel.text = @"当前选中的是：豪华轿车";
             break;
         case 3:
-            _showLabel.text = @"当前选中：优步专车";
+            _showLabel.text = @"当前选中的是：优步专车";
             break;
         default:
             break;
