@@ -30,6 +30,7 @@
     [_filter setProgressColor:[UIColor groupTableViewBackgroundColor]];//设置滑杆的颜色
     [_filter setTopTitlesColor:[UIColor orangeColor]];//设置滑块上方字体颜色
     [_filter setSelectedIndex:0];//设置当前选中
+    _filter.backgroundColor = [UIColor greenColor];
     [_Button_UIView addSubview:_filter];
     
     _showLabel.text = @"当前选中的是：人民轿车";
