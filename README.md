@@ -16,4 +16,4 @@ _filter = [[SEFilterControl alloc]initWithFrame:CGRectMake(25, 5, self.view.fram
 [_filter setSelectedIndex:0];//初始设置当前选中
 
 #效果图
-![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)
+![](https://github.com/Jdb156158/DBSliderButtonControlView/blob/master/2016-03-26%2015_24_30.gif)
