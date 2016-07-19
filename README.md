@@ -14,3 +14,6 @@ _filter = [[SEFilterControl alloc]initWithFrame:CGRectMake(25, 5, self.view.fram
 [_filter setTopTitlesColor:[UIColor orangeColor]];//设置滑块上方字体颜色 
 
 [_filter setSelectedIndex:0];//初始设置当前选中
+
+#效果图
+![](https://github.com/guodongxiaren/ImageCache/raw/master/Logo/foryou.gif)
